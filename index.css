@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  /*linear-gradient : 그라데이션주기*/
+  background: linear-gradient(to bottom, #e6e6fa 0%, #fff0f5);
+}
+
+.head_tit {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .input_F {
+    height: 40px;
+    margin-top: 10px;
+    #addValue {
+      outline: none;
+      width: 400px;
+      height: 100%;
+    }
+    #add_btn {
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+  #result {
+    width: 400px;
+    margin-top: 20px;
+    > div {
+      margin-top: 10px;
+      height: 40px;
+      width: 100%;
+      background-color: beige;
+    }
+  }
+}
